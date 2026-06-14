@@ -40,7 +40,7 @@ const workoutDays = [
   {
     dayNumber: 2,
     title: "DAY 2: BACK & BICEPS",
-    image: "/inclined.jpg",
+    image: "/Inclined.jpg",
     exercises: [
       {
         name: "Lat Pull Down",
