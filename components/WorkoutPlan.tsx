@@ -11,27 +11,27 @@ const workoutDays = [
       {
         name: "Flat Bench Press",
         stats: "2 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
         name: "Incline Bench Press",
         stats: "3 sets / 12 reps",
-        icon: <Activity className="w-5 h-5 text-orange-500" />
+        icon: <Activity className="w-5 h-5 text-red-500" />
       },
       {
         name: "Decline Bench Press",
         stats: "3 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
         name: "Incline Machine Press",
         stats: "4 sets / 12 reps",
-        icon: <Activity className="w-5 h-5 text-orange-500" />
+        icon: <Activity className="w-5 h-5 text-red-500" />
       },
       {
         name: "Machine Fly",
         stats: "4 sets / 12 reps",
-        icon: <Activity className="w-5 h-5 text-orange-500" />
+        icon: <Activity className="w-5 h-5 text-red-500" />
       }
     ],
     buttonText: "Start Day 1",
@@ -43,29 +43,29 @@ const workoutDays = [
     image: "/inclined.jpg",
     exercises: [
       {
-        name: "Flat Bench Press",
-        stats: "2 sets / 12 reps",
-        icon: <Flame className="w-5 h-5 text-orange-500" />
+        name: "Lat Pull Down",
+        stats: "3 sets / 15 reps",
+        icon: <Flame className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Incline Bench Press",
-        stats: "3 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "T-Bar Row",
+        stats: "3 sets / 15 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Decline Bench Press",
-        stats: "3 sets / 12 reps",
-        icon: <Heart className="w-5 h-5 text-orange-500" />
+        name: "One arm Rowing",
+        stats: "3 sets / 15 reps",
+        icon: <Heart className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Incline Machine Press",
-        stats: "4 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Bend OverRow",
+        stats: "3 sets / 15 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Machine Fly",
-        stats: "4 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Barbell Rowing",
+        stats: "3 sets / 15 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       }
     ],
     buttonText: "Track Progress",
@@ -77,29 +77,29 @@ const workoutDays = [
     image: "/legs2.jpg",
     exercises: [
       {
-        name: "Flat Bench Press",
-        stats: "2 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Walking Lunges",
+        stats: "3 sets / 15 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Incline Bench Press",
-        stats: "3 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Leg Extension",
+        stats: "3 sets / 15 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Decline Bench Press",
-        stats: "3 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Leg Curl",
+        stats: "3 sets / 15 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Incline Machine Press",
-        stats: "4 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Leg Press",
+        stats: "3 sets / 15 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Machine Fly",
-        stats: "4 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Front Dumbbell Press",
+        stats: "4 sets / 15 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       }
     ],
     buttonText: "Start Day 3",
@@ -107,33 +107,33 @@ const workoutDays = [
   },
   {
     dayNumber: 4,
-    title: "DAY 4: CHEST & TRICEPS",
-    image: "/flatbenchpress.jpg",
+    title: "DAY 4: Full Body",
+    image: "/squat.jpg",
     exercises: [
       {
-        name: "Flat Bench Press",
-        stats: "2 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Squats to Shoulder Press",
+        stats: "4sets / 15 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Incline Bench Press",
-        stats: "3 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Alternate Dumbbell Press",
+        stats: "4 sets / 15 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Decline Bench Press",
-        stats: "3 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Kettle bell Swings",
+        stats: "4 sets / 15 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Incline Machine Press",
-        stats: "4 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Bulgarian Bag Swing ",
+        stats: "3sets / 20 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       },
       {
-        name: "Machine Fly",
-        stats: "4 sets / 12 reps",
-        icon: <Dumbbell className="w-5 h-5 text-orange-500" />
+        name: "Planks Variations",
+        stats: "3 sets / 20 reps",
+        icon: <Dumbbell className="w-5 h-5 text-red-500" />
       }
     ],
     buttonText: "Track Progress",
@@ -144,7 +144,7 @@ const workoutDays = [
 export default function WorkoutPlan() {
   return (
     <div 
-      className="min-h-screen bg-cover bg-center bg-no-repeat font-sans text-zinc-200 relative selection:bg-lime-500 selection:text-black"
+      className="min-h-screen bg-cover bg-center bg-no-repeat font-sans text-zinc-200 relative selection:bg-red-600 selection:text-white"
       style={{ backgroundImage: `url('gym.jpg')` }}
     >
       {/* Dark Overlay blending into deep background matching logo void */}
@@ -156,8 +156,8 @@ export default function WorkoutPlan() {
           <div className="flex items-center gap-2 font-black tracking-wider text-xl">
             <div className="relative w-32 h-32">
               <Image 
-                src="/izone.jpg" 
-                alt="iZone Logo" 
+                src="/bravo.png" 
+                alt="Bravo Logo" 
                 fill
                 sizes="128px"
                 className="object-contain"
@@ -167,16 +167,16 @@ export default function WorkoutPlan() {
           </div>
           
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-400">
-            <a href="#" className="hover:text-lime-400 transition-colors">Home</a>
-            <a href="#" className="hover:text-lime-400 transition-colors flex items-center gap-1">Workout <ChevronDown className="w-3 h-3" /></a>
-            <a href="#" className="hover:text-lime-400 transition-colors flex items-center gap-1">Workouts <ChevronDown className="w-3 h-3" /></a>
-            <a href="#" className="hover:text-lime-400 transition-colors">Blog</a>
-            <a href="#" className="hover:text-lime-400 transition-colors">Contact</a>
+            <a href="#" className="hover:text-red-500 transition-colors">Home</a>
+            <a href="#" className="hover:text-red-500 transition-colors flex items-center gap-1">Workout <ChevronDown className="w-3 h-3" /></a>
+            <a href="#" className="hover:text-red-500 transition-colors flex items-center gap-1">Workouts <ChevronDown className="w-3 h-3" /></a>
+            <a href="#" className="hover:text-red-500 transition-colors">Blog</a>
+            <a href="#" className="hover:text-red-500 transition-colors">Contact</a>
           </div>
 
           <div className="flex items-center gap-4">
             <a href="#" className="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Log In</a>
-            <button className="bg-lime-500 hover:bg-lime-400 text-black font-extrabold text-xs px-5 py-2.5 rounded-full transition-all tracking-wide shadow-lg shadow-lime-500/20 uppercase">
+            <button className="bg-red-600 hover:bg-red-500 text-white font-extrabold text-xs px-5 py-2.5 rounded-full transition-all tracking-wide shadow-lg shadow-red-600/20 uppercase">
               Track Progress
             </button>
           </div>
@@ -185,7 +185,7 @@ export default function WorkoutPlan() {
         {/* Hero Headline Section */}
         <header className="max-w-4xl mx-auto text-center mt-12 mb-14 px-4">
           <h1 className="text-3xl md:text-5xl font-black tracking-tight text-white uppercase mb-3">
-            4-Day World-Class <span className="text-lime-500">i-Zone</span> Workout Plan
+            4-Day World-Class <span className="text-red-600">Bravo Fitness</span> Workout Plan
           </h1>
           <p className="text-sm md:text-base text-zinc-400 font-light max-w-xl mx-auto">
             Everyday is a choice. Elevate your training routine with our precision engineering and structured workout plan.
@@ -198,19 +198,19 @@ export default function WorkoutPlan() {
             {workoutDays.map((day) => (
               <div 
                 key={day.dayNumber} 
-                className="bg-zinc-900/80 backdrop-blur-md border border-zinc-800 rounded-2xl overflow-hidden flex flex-col justify-between shadow-2xl shadow-black/60 hover:border-lime-500/30 transition-all group"
+                className="bg-zinc-900/80 backdrop-blur-md border border-zinc-800 rounded-2xl overflow-hidden flex flex-col justify-between shadow-2xl shadow-black/60 hover:border-red-600/30 transition-all group"
               >
                 <div>
                   {/* Card Header Title */}
                   <div className="p-4 border-b border-zinc-800">
-                    <h3 className="text-sm font-bold text-zinc-100 tracking-wide uppercase group-hover:text-lime-400 transition-colors">
+                    <h3 className="text-sm font-bold text-zinc-100 tracking-wide uppercase group-hover:text-red-500 transition-colors">
                       {day.title}
                     </h3>
                   </div>
 
                   {/* Workout Card Media Representation */}
                   <div className="relative aspect-video w-full overflow-hidden bg-neutral-950">
-                    <img 
+                    <Image 
                       src={day.image} 
                       alt={day.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100" 
@@ -229,7 +229,7 @@ export default function WorkoutPlan() {
                             {exercise.name}
                           </h4>
                         </div>
-                        <p className="text-xs font-bold text-orange-400 bg-orange-950/40 border border-orange-900/30 px-2.5 py-1 rounded-lg shrink-0">
+                        <p className="text-xs font-bold text-red-400 bg-red-950/40 border border-red-900/30 px-2.5 py-1 rounded-lg shrink-0">
                           {exercise.stats}
                         </p>
                       </div>
@@ -242,8 +242,8 @@ export default function WorkoutPlan() {
                   <button 
                     className={`w-full font-extrabold text-xs py-3 rounded-xl transition-all uppercase tracking-wider ${
                       day.primaryButton 
-                        ? 'bg-lime-500 hover:bg-lime-400 text-black shadow-md shadow-lime-500/10' 
-                        : 'bg-transparent border border-zinc-700 text-zinc-300 hover:border-orange-500 hover:text-orange-400'
+                        ? 'bg-red-600 hover:bg-red-500 text-white shadow-md shadow-red-600/10' 
+                        : 'bg-transparent border border-zinc-700 text-zinc-300 hover:border-red-500 hover:text-red-400'
                     }`}
                   >
                     {day.buttonText}
